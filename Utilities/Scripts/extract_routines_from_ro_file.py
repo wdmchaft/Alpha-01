@@ -11,6 +11,7 @@
 #--------------------------------------------
 
 import sys
+import string
 
 inputFile = open(sys.argv[1],'r')
 
@@ -27,8 +28,10 @@ state = 'FirstLine'
 for line in inputFile:
 	if state == 'FirstLine':
 		name,up,rest = line.partition('^')
+		directory = name[0]
+		directory = directory.capitalize()
 		name = name.strip()
-		outputFile = open(name+'.m','w')
+		outputFile = open(directory+'/'+name+'.m','w')
 		sys.stdout.write('Extracting Routine %s\n' % name)
 		state = 'InsideRoutine'
 	elif state == 'InsideRoutine':
