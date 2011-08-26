@@ -1,0 +1,30 @@
+The content of this directory was imported from
+the FOIA Release of VistA made on August 19 2011.
+
+The routines were exported from the cache.dat file,
+into a .ro file.
+
+Then the script in the directory:
+
+            Utilities/Scripts/
+
+named:
+
+     extract_routines_from_ro_file.py
+
+was used to extract every individual routine and
+to put it in a separate file.
+
+Given that there are more than 26,000 routines,
+the files were archived into 26 directories based
+on the first letter of their respective names.
+
+WARNING: THIS REPOSTORY IS EXPERIMENTAL AND IT IS
+INTENDED TO BE THROWN AWAY. DO NOT RELY ON THIS
+REPOSITORY. DO NOT BUILD WORK BASED ON THIS REPOSITORY.
+THE CONTENT WILL BE REMOVED AT ANY TIME WITHOUT NOTICE.
+
+LICENSE:
+THE FILES IN THIS DIRECTORY ARE IN THE PUBLIC DOMAIN.
+THEY WERE DEVELOPED BY THE DEPARTMENT OF VETERANS AFFAIRS.
+
